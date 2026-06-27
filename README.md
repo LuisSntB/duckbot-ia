@@ -30,10 +30,10 @@ Todo esto de manera gratuita y adaptable a cada negocio, generando ganancias ya 
         │  Abre http://localhost:5000
         ▼
 ┌─────────────────────────────────────┐
-│         chatbot.py  (FastAPI)       │
+│         chatbot.py                  │
 │                                     │
 │  • Sirve index.html, CSS y JS       │
-│  • Recibe mensajes del widget       │
+│  • Recibe mensajes                  │
 │  • Filtra ataques y contenido       │
 │  • Construye el historial           │
 │  • Llama al modelo de IA local      │
@@ -45,7 +45,7 @@ Todo esto de manera gratuita y adaptable a cada negocio, generando ganancias ya 
 │         Ollama  (local)             │
 │         Modelo: hermes3             │
 │                                     │
-│  Corre en local.           │
+│  Corre en local.                    │
 │  No manda datos a internet.         │
 └─────────────────────────────────────┘
 ```
@@ -55,7 +55,7 @@ Todo esto de manera gratuita y adaptable a cada negocio, generando ganancias ya 
 ## Archivos del proyecto
 
 ```
-transtour-chatbot/
+duckbot-ia/
 │
 ├── chatbot.py            ← El cerebro: servidor web + lógica de IA
 ├── empresa_config.json   ← La personalidad del bot
