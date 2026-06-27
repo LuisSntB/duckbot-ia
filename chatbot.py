@@ -118,6 +118,7 @@ PALABRAS_BLOQUEADAS_SALIDA = [
     "atractivos diurnos para adultos",
     "atracciones para adultos",
     "adult entertainment",
+    "puticlub",
     "ventas@transtour.com.mx",
 ]
 
