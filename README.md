@@ -1,7 +1,10 @@
 # 🦆Duckbot🦆 — Asistente Web con IA Local
 
-Chatbot conversacional embebido en un sitio web. 
-Corre completamente **sin internet ni APIs de pago** gracias a un modelo de lenguaje local, util para trabajar 24/7 en empresas donde se busquen generar citas o cotizaciones breves a cualquier hora agilizando procesos y buscando aumentar los ingresos de las empresas con estas herramientas. 
+Chatbot conversacional embebido en un sitio web. Corre completamente 
+sin internet ni APIs de pago gracias a un modelo de lenguaje local.
+
+Útil para empresas que buscan generar citas o cotizaciones las 24/7, 
+agilizando procesos y aumentando ingresos sin depender de horarios de atención.
 
 ---
 
