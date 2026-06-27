@@ -18,7 +18,8 @@ Un usuario entra a una pagina, ve un botón flotante que dice **"Habla con nosot
 - Captura sus datos
 - **Rechaza** intentos de manipulación, contenido inapropiado y preguntas fuera de tema
 
-Todo esto de manera gratuita y adaptable a cada negocio, generando ganancias ya sea filtrando clientes, ahorrando tiempo a tus trabajadores que usaran ese tiempo para ser mas productivos y no responder a spam y buscando generar un mayor numero de clientes sin importar horarios o de mas.
+Todo esto de manera gratuita y adaptable a cada negocio, generando ganancias ya sea filtrando clientes, ahorrando tiempo o de mas, 
+todo esto con el objetivo de mejorar la gestion de clientes y optimizar procesos que normalmente resolveria una persona
 
 ---
 
