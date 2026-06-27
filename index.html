@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransTour - Transporte Turístico y Empresarial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <h2>Trans<span>Tour</span></h2>
+        </div>
+        
+        <button class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li class="dropdown">
+                    <a href="#servicios" class="nav-link dropdown-toggle">Servicios <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#transporte-personal">Transporte de Personal</a></li>
+                        <li><a href="#turismo">Turismo</a></li>
+                        <li><a href="#ultra-lujo">Ultra Lujo</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                <li><a href="#reclutamiento" class="nav-link">Reclutamiento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h1>Viaja con Seguridad, Comodidad y Estilo</h1>
+            <p>Soluciones integrales de transporte turístico, ejecutivo y de personal a nivel nacional.</p>
+            <a href="#contacto" class="btn-primary">Cotizar Ahora</a>
+        </div>
+    </section>
+
+    <section id="nosotros" class="section-padding">
+        <div class="container">
+            <h2>Quiénes Somos</h2>
+            <div class="grid-2">
+                <div>
+                    <p>En <strong>TransTour</strong> nos dedicamos a conectar destinos y personas a través de un servicio de transporte terrestre de primer nivel. Con años de experiencia en el sector, nos hemos consolidado como líderes en puntualidad, seguridad y confort.</p>
+                    <p>Contamos con una flota moderna de autobuses y camionetas equipadas con la más alta tecnología y choferes profesionales certificados.</p>
+                </div>
+                <div class="stats-box">
+                    <div class="stat-item"><h3>+15</h3><p>Años de Experiencia</p></div>
+                    <div class="stat-item"><h3>100%</h3><p>Seguridad Garantizada</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="section-padding bg-light">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="grid-3">
+                <div id="transporte-personal" class="card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <h3>Transporte de Personal</h3>
+                    <p>Logística eficiente para empresas. Llevamos a tus colaboradores de forma puntual y segura hasta su lugar de trabajo.</p>
+                </div>
+                <div id="turismo" class="card">
+                    <div class="card-icon"><i class="fas fa-bus"></i></div>
+                    <h3>Turismo</h3>
+                    <p>Viajes de placer, excursiones escolares y circuitos turísticos. Unidades confortables para que disfrutes el trayecto.</p>
+                </div>
+                <div id="ultra-lujo" class="card">
+                    <div class="card-icon"><i class="fas fa-crown"></i></div>
+                    <h3>Ultra Lujo</h3>
+                    <p>Experiencias VIP en unidades premium de última generación. Máximo confort, asientos ejecutivos, pantallas individuales y amenidades a bordo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section-padding">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p class="text-center">¿Tienes alguna duda o quieres programar un viaje? Escríbenos.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Nombre Completo" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <input type="tel" placeholder="Teléfono">
+                <textarea rows="5" placeholder="Detalles de tu viaje o mensaje..." required></textarea>
+                <button type="submit" class="btn-primary">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="reclutamiento" class="section-padding bg-light">
+        <div class="container">
+            <h2>Únete a Nuestro Equipo</h2>
+            <p class="text-center">Buscamos a los mejores operadores y personal administrativo. Crece profesionalmente con nosotros.</p>
+            <div class="vacancies">
+                <div class="vacancy-card">
+                    <h3>Operador de Autobús Turístico</h3>
+                    <p><strong>Requisitos:</strong> Licencia federal vigente, experiencia comprobable en carretera de 3 años, excelente actitud de servicio.</p>
+                </div>
+                <div class="vacancy-form-container">
+                    <form class="contact-form">
+                        <h4>Postúlate Aquí</h4>
+                        <input type="text" placeholder="Nombre Completo" required>
+                        <input type="tel" placeholder="Teléfono de Contacto" required>
+                        <label for="cv" style="display:block; margin-bottom:5px; font-size:14px;">Adjuntar CV (PDF)</label>
+                        <input type="file" id="cv" accept=".pdf" required>
+                        <button type="submit" class="btn-primary">Enviar Candidatura</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="chat-container" id="chat-container">
+        <button class="chat-toggle" id="chat-toggle">
+            <i class="fas fa-comments"></i> <span>Habla con nosotros</span>
+        </button>
+
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <div class="chat-bot-info">
+                    <i class="fas fa-robot"></i>
+                    <div>
+                        <h4>Asistente de TransTour</h4>
+                        <small>En línea</small>
+                    </div>
+                </div>
+                <button class="chat-close" id="chat-close">&times;</button>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    Hola 🚍 Bienvenido a TransTour. ¿En qué te puedo ayudar hoy? Pregúntame sobre cotizaciones, rutas o nuestros servicios.
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Escribe tu mensaje aquí..." autocomplete="off">
+                <button id="chat-send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 TransTour. Todos los derechos reservados. Diseñado para transporte de excelencia.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

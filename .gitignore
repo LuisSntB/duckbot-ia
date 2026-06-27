@@ -1,0 +1,21 @@
+# ─── Python ───────────────────────────────────────────
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.local
+.env.production
+*.secret
+.DS_Store          # Mac
+Thumbs.db          # Windows
+desktop.ini        # Windows
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+logs/
+*.tmp
